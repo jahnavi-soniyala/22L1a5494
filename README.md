@@ -34,7 +34,7 @@ This project allows users to shorten URLs, set expiry times, use custom shortcod
     A simple React-based URL Shortener with statistics, built using Material UI and LocalStorage.
     Allows users to shorten URLs, set expiry times, use custom shortcodes, and view analytics.
 
-structure:
+#### structure:
   src:
     - App.js
     - index.js
@@ -45,7 +45,7 @@ structure:
     - RedirectPage.js
     - StatsPage.js
 
-setup:
+#### setup:
   steps:
     - "Clone the repo:"
     - |
@@ -58,12 +58,12 @@ setup:
     - "Open in browser:"
     - "http://localhost:3000"
 
-usage:
+#### usage:
   - "Go to `/` → Shorten URLs."
   - "Go to `/stats` → View statistics."
   - "Visit `/shortcode` → Redirect to original URL (if valid & not expired)."
 
-example:
+#### example:
   shorten: "https://example.com → http://localhost:3000/abc12"
   stats_page:
     - "Short URL"
@@ -71,16 +71,15 @@ example:
     - "Expiry Date"
     - "Click Count & Details"
 
-constraints:
+#### constraints:
   - "Only Material UI allowed (no Tailwind/ShadCN)."
   - "Must run on http://localhost:3000."
   - "Client-side input validation."
   - "Graceful error handling."
   - "Clean and simple UI."
 
-future_improvements:
+#### future_improvements:
   - "Backend integration (Node/Express + DB)."
   - "Real geo-location tracking for clicks."
   - "User authentication to save history."
 
-license: "MIT License © 2025" that you can submit along with the code?
